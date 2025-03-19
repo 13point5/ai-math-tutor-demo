@@ -5,7 +5,7 @@ import { HighlightedQuestion } from "@/components/highlighted-question";
 import { PencilBoxV2 } from "@/components/pencil-box-v2";
 import { ToolButtonV2 } from "@/components/tool-button-v2";
 import { Button } from "@/components/ui/button";
-import { ConversationPanel } from "@/components/conversation-panel";
+// import { ConversationPanel } from "@/components/conversation-panel";
 import useWebRTCAudioSession from "@/hooks/use-webrtc";
 import { question } from "@/lib/constants";
 import { tools } from "@/lib/tools";
@@ -270,9 +270,9 @@ export default function PencilMathGame() {
       </div>
 
       {/* Conversation Panel */}
-      <div className="w-full h-full md:w-auto">
+      {/* <div className="w-full h-full md:w-auto">
         <ConversationPanel conversation={conversation} />
-      </div>
+      </div> */}
     </div>
   );
 }

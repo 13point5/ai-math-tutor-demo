@@ -119,7 +119,7 @@ Lena:
 
 Active tool: ${state.activeTool}
 
-Highlight question parts: ${state.highlightQuestionParts}
+Currently highlighted question parts: ${state.highlightQuestionParts}
 `;
   }
 
